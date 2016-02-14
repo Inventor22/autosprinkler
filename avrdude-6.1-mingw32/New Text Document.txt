@@ -1,0 +1,13 @@
+1. Install attiny board manager from arduino: follow pictures
+
+2. Copy and overwrite the files in:
+
+C:\Program Files (x86)\Arduino\hardware\tools\avr\bin --> application
+C:\Program Files (x86)\Arduino\hardware\tools\avr\etc --> config
+
+3. Plug in Attiny suing AVRISP mkii
+-> burn bootloader
+
+4. -> make sure all other arduino devices plugged in over USB are disconnected, and only AVR ISP mkii is plugged in
+a. ensure power is going to the board
+b. upload problem using arrow top left
